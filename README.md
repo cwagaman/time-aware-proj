@@ -6,6 +6,6 @@ We implement Algorithm 5 from https://arxiv.org/pdf/2403.04630v1.pdf
 * We use $\varepsilon = 1$, $\delta = 10^{-10}$, $T = 10^6$, $\beta = 0.05$. 
   * These values can be changed immediately after the "Run Algorithm" header.
 
-If the input graph is guaranteed to satisfy the degree bound, then `chart_simulator.ipynb` can be used to show what the added noise would be like.
+If the input graph is guaranteed to satisfy the degree bound, then `chart_simulator.ipynb` can be used to show what the added noise would be.
 * WARNING: `chart_simulator.ipynb` is NOT PRIVATE and should only be used to compare the accuracy of our algorithm and other algorithms. (By contrast, `full_alg.ipynb` is private.) 
 * The charts produced by `chart_simulator.ipynb` are only correct if the input graph satisfies the specified degree bound. 
